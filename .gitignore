@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Dataset (large, download it yourself - see data/README.md)
+data/*.csv
+data/*.zip
+
+# Secrets and local Streamlit settings
+.streamlit/secrets.toml
+.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.log
