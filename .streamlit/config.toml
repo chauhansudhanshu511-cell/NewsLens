@@ -1,0 +1,12 @@
+[theme]
+primaryColor = "#2E6FD8"
+font = "sans serif"
+
+[browser]
+# Do not send usage statistics to Streamlit.
+gatherUsageStats = false
+
+[server]
+# Reject uploads/requests larger than 5 MB (the app only accepts pasted text).
+maxUploadSize = 5
+maxMessageSize = 50
