@@ -1,0 +1,699 @@
+{
+  "status": "evaluated",
+  "trained_at_utc": "2026-09-18T16:55:36+00:00",
+  "selection_metric": "validation macro F1",
+  "final_model": "Logistic Regression (C=32)",
+  "baseline_model": "Multinomial Naive Bayes (alpha=0.01)",
+  "validation_candidates": [
+    {
+      "kind": "logistic_regression",
+      "param": 0.5,
+      "name": "Logistic Regression (C=0.5)",
+      "validation": {
+        "n_samples": 9508,
+        "accuracy": 0.9359486748001683,
+        "precision_fake": 0.9260539046302695,
+        "recall_fake": 0.9331476323119777,
+        "f1_fake": 0.929587235518557,
+        "precision_real": 0.9442616605380298,
+        "recall_real": 0.9382692307692307,
+        "f1_real": 0.9412559081701553,
+        "f1_macro": 0.9354215718443561,
+        "confusion_matrix": {
+          "labels": [
+            "real",
+            "fake"
+          ],
+          "matrix": [
+            [
+              4879,
+              321
+            ],
+            [
+              288,
+              4020
+            ]
+          ],
+          "layout": "rows = actual, columns = predicted"
+        }
+      },
+      "fit_seconds": 4.6
+    },
+    {
+      "kind": "logistic_regression",
+      "param": 1.0,
+      "name": "Logistic Regression (C=1)",
+      "validation": {
+        "n_samples": 9508,
+        "accuracy": 0.9436264198569626,
+        "precision_fake": 0.9345622119815669,
+        "recall_fake": 0.9415041782729805,
+        "f1_fake": 0.9380203515263644,
+        "precision_real": 0.9512383900928792,
+        "recall_real": 0.9453846153846154,
+        "f1_real": 0.9483024691358025,
+        "f1_macro": 0.9431614103310835,
+        "confusion_matrix": {
+          "labels": [
+            "real",
+            "fake"
+          ],
+          "matrix": [
+            [
+              4916,
+              284
+            ],
+            [
+              252,
+              4056
+            ]
+          ],
+          "layout": "rows = actual, columns = predicted"
+        }
+      },
+      "fit_seconds": 4.0
+    },
+    {
+      "kind": "logistic_regression",
+      "param": 2.0,
+      "name": "Logistic Regression (C=2)",
+      "validation": {
+        "n_samples": 9508,
+        "accuracy": 0.9500420698359276,
+        "precision_fake": 0.943736976151887,
+        "recall_fake": 0.9461467038068709,
+        "f1_fake": 0.9449403036976933,
+        "precision_real": 0.9552900366159183,
+        "recall_real": 0.9532692307692308,
+        "f1_real": 0.9542785638656271,
+        "f1_macro": 0.9496094337816603,
+        "confusion_matrix": {
+          "labels": [
+            "real",
+            "fake"
+          ],
+          "matrix": [
+            [
+              4957,
+              243
+            ],
+            [
+              232,
+              4076
+            ]
+          ],
+          "layout": "rows = actual, columns = predicted"
+        }
+      },
+      "fit_seconds": 4.3
+    },
+    {
+      "kind": "logistic_regression",
+      "param": 4.0,
+      "name": "Logistic Regression (C=4)",
+      "validation": {
+        "n_samples": 9508,
+        "accuracy": 0.9542490534286916,
+        "precision_fake": 0.9485753995830438,
+        "recall_fake": 0.9505571030640668,
+        "f1_fake": 0.9495652173913044,
+        "precision_real": 0.9589674436524754,
+        "recall_real": 0.9573076923076923,
+        "f1_real": 0.95813684919642,
+        "f1_macro": 0.9538510332938621,
+        "confusion_matrix": {
+          "labels": [
+            "real",
+            "fake"
+          ],
+          "matrix": [
+            [
+              4978,
+              222
+            ],
+            [
+              213,
+              4095
+            ]
+          ],
+          "layout": "rows = actual, columns = predicted"
+        }
+      },
+      "fit_seconds": 5.5
+    },
+    {
+      "kind": "logistic_regression",
+      "param": 8.0,
+      "name": "Logistic Regression (C=8)",
+      "validation": {
+        "n_samples": 9508,
+        "accuracy": 0.9569835927639883,
+        "precision_fake": 0.9526352449500812,
+        "recall_fake": 0.952414113277623,
+        "f1_fake": 0.9525246662797446,
+        "precision_real": 0.9605845029801962,
+        "recall_real": 0.9607692307692308,
+        "f1_real": 0.9606768579944236,
+        "f1_macro": 0.9566007621370841,
+        "confusion_matrix": {
+          "labels": [
+            "real",
+            "fake"
+          ],
+          "matrix": [
+            [
+              4996,
+              204
+            ],
+            [
+              205,
+              4103
+            ]
+          ],
+          "layout": "rows = actual, columns = predicted"
+        }
+      },
+      "fit_seconds": 5.5
+    },
+    {
+      "kind": "logistic_regression",
+      "param": 16.0,
+      "name": "Logistic Regression (C=16)",
+      "validation": {
+        "n_samples": 9508,
+        "accuracy": 0.957719814892722,
+        "precision_fake": 0.9537639405204461,
+        "recall_fake": 0.952878365831012,
+        "f1_fake": 0.9533209475150952,
+        "precision_real": 0.9609915449654112,
+        "recall_real": 0.9617307692307693,
+        "f1_real": 0.961361014994233,
+        "f1_macro": 0.957340981254664,
+        "confusion_matrix": {
+          "labels": [
+            "real",
+            "fake"
+          ],
+          "matrix": [
+            [
+              5001,
+              199
+            ],
+            [
+              203,
+              4105
+            ]
+          ],
+          "layout": "rows = actual, columns = predicted"
+        }
+      },
+      "fit_seconds": 5.5
+    },
+    {
+      "kind": "logistic_regression",
+      "param": 32.0,
+      "name": "Logistic Regression (C=32)",
+      "validation": {
+        "n_samples": 9508,
+        "accuracy": 0.9582456878418174,
+        "precision_fake": 0.9550849429834768,
+        "recall_fake": 0.9526462395543176,
+        "f1_fake": 0.9538640325392214,
+        "precision_real": 0.9608520437535981,
+        "recall_real": 0.9628846153846153,
+        "f1_real": 0.9618672557871482,
+        "f1_macro": 0.9578656441631848,
+        "confusion_matrix": {
+          "labels": [
+            "real",
+            "fake"
+          ],
+          "matrix": [
+            [
+              5007,
+              193
+            ],
+            [
+              204,
+              4104
+            ]
+          ],
+          "layout": "rows = actual, columns = predicted"
+        }
+      },
+      "fit_seconds": 7.2
+    },
+    {
+      "kind": "multinomial_nb",
+      "param": 0.01,
+      "name": "Multinomial Naive Bayes (alpha=0.01)",
+      "validation": {
+        "n_samples": 9508,
+        "accuracy": 0.879785443836769,
+        "precision_fake": 0.8514323784143905,
+        "recall_fake": 0.8899721448467967,
+        "f1_fake": 0.8702757916241062,
+        "precision_real": 0.9052947052947053,
+        "recall_real": 0.8713461538461539,
+        "f1_real": 0.8879960803527682,
+        "f1_macro": 0.8791359359884372,
+        "confusion_matrix": {
+          "labels": [
+            "real",
+            "fake"
+          ],
+          "matrix": [
+            [
+              4531,
+              669
+            ],
+            [
+              474,
+              3834
+            ]
+          ],
+          "layout": "rows = actual, columns = predicted"
+        }
+      },
+      "fit_seconds": 0.7
+    },
+    {
+      "kind": "multinomial_nb",
+      "param": 0.05,
+      "name": "Multinomial Naive Bayes (alpha=0.05)",
+      "validation": {
+        "n_samples": 9508,
+        "accuracy": 0.8777871266302062,
+        "precision_fake": 0.8484714222419141,
+        "recall_fake": 0.8890436397400185,
+        "f1_fake": 0.8682838358648832,
+        "precision_real": 0.9042851421706047,
+        "recall_real": 0.8684615384615385,
+        "f1_real": 0.8860113792426918,
+        "f1_macro": 0.8771476075537875,
+        "confusion_matrix": {
+          "labels": [
+            "real",
+            "fake"
+          ],
+          "matrix": [
+            [
+              4516,
+              684
+            ],
+            [
+              478,
+              3830
+            ]
+          ],
+          "layout": "rows = actual, columns = predicted"
+        }
+      },
+      "fit_seconds": 0.2
+    },
+    {
+      "kind": "multinomial_nb",
+      "param": 0.1,
+      "name": "Multinomial Naive Bayes (alpha=0.1)",
+      "validation": {
+        "n_samples": 9508,
+        "accuracy": 0.8765250315523769,
+        "precision_fake": 0.8466814159292035,
+        "recall_fake": 0.888347260909935,
+        "f1_fake": 0.8670140462165836,
+        "precision_real": 0.9035685645549318,
+        "recall_real": 0.8667307692307692,
+        "f1_real": 0.8847663918335297,
+        "f1_macro": 0.8758902190250566,
+        "confusion_matrix": {
+          "labels": [
+            "real",
+            "fake"
+          ],
+          "matrix": [
+            [
+              4507,
+              693
+            ],
+            [
+              481,
+              3827
+            ]
+          ],
+          "layout": "rows = actual, columns = predicted"
+        }
+      },
+      "fit_seconds": 0.2
+    },
+    {
+      "kind": "multinomial_nb",
+      "param": 0.5,
+      "name": "Multinomial Naive Bayes (alpha=0.5)",
+      "validation": {
+        "n_samples": 9508,
+        "accuracy": 0.8729490954985275,
+        "precision_fake": 0.8426171529619806,
+        "recall_fake": 0.8848653667595172,
+        "f1_fake": 0.8632246376811594,
+        "precision_real": 0.9004815409309791,
+        "recall_real": 0.8630769230769231,
+        "f1_real": 0.8813825608798115,
+        "f1_macro": 0.8723035992804855,
+        "confusion_matrix": {
+          "labels": [
+            "real",
+            "fake"
+          ],
+          "matrix": [
+            [
+              4488,
+              712
+            ],
+            [
+              496,
+              3812
+            ]
+          ],
+          "layout": "rows = actual, columns = predicted"
+        }
+      },
+      "fit_seconds": 0.2
+    },
+    {
+      "kind": "multinomial_nb",
+      "param": 1.0,
+      "name": "Multinomial Naive Bayes (alpha=1)",
+      "validation": {
+        "n_samples": 9508,
+        "accuracy": 0.8711611274716029,
+        "precision_fake": 0.8441616432239339,
+        "recall_fake": 0.877669452181987,
+        "f1_fake": 0.8605895072265848,
+        "precision_real": 0.8952077947902167,
+        "recall_real": 0.8657692307692307,
+        "f1_real": 0.8802424479421254,
+        "f1_macro": 0.8704159775843551,
+        "confusion_matrix": {
+          "labels": [
+            "real",
+            "fake"
+          ],
+          "matrix": [
+            [
+              4502,
+              698
+            ],
+            [
+              527,
+              3781
+            ]
+          ],
+          "layout": "rows = actual, columns = predicted"
+        }
+      },
+      "fit_seconds": 0.2
+    }
+  ],
+  "test": {
+    "n_samples": 9479,
+    "accuracy": 0.9608608503006646,
+    "precision_fake": 0.957103949160236,
+    "recall_fake": 0.9586269606728802,
+    "f1_fake": 0.9578648495173196,
+    "precision_real": 0.9641237926276365,
+    "recall_real": 0.9627952755905512,
+    "f1_real": 0.9634590761351325,
+    "f1_macro": 0.9606619628262261,
+    "confusion_matrix": {
+      "labels": [
+        "real",
+        "fake"
+      ],
+      "matrix": [
+        [
+          4891,
+          189
+        ],
+        [
+          182,
+          4217
+        ]
+      ],
+      "layout": "rows = actual, columns = predicted"
+    }
+  },
+  "test_headlines_only": {
+    "n_samples": 9410,
+    "accuracy": 0.7172157279489905,
+    "precision_fake": 0.6233190483227428,
+    "recall_fake": 0.9741339491916859,
+    "f1_fake": 0.760205460935388,
+    "precision_real": 0.957623912220961,
+    "recall_real": 0.4982283464566929,
+    "f1_real": 0.655444775346368,
+    "f1_macro": 0.707825118140878,
+    "confusion_matrix": {
+      "labels": [
+        "real",
+        "fake"
+      ],
+      "matrix": [
+        [
+          2531,
+          2549
+        ],
+        [
+          112,
+          4218
+        ]
+      ],
+      "layout": "rows = actual, columns = predicted"
+    }
+  },
+  "dataset_stats": {
+    "rows_raw": 72134,
+    "dropped_bad_label": 0,
+    "dropped_empty_or_tiny": 84,
+    "dropped_conflicting_label_duplicates": 0,
+    "dropped_exact_duplicates": 8733,
+    "rows_after_cleaning": 63317,
+    "near_duplicate_groups": 62264,
+    "rows_in_multi_row_groups": 1681,
+    "class_counts": {
+      "real": 34518,
+      "fake": 28799
+    },
+    "train_rows": 44330,
+    "train_fake_share": 0.4532,
+    "validation_rows": 9508,
+    "validation_fake_share": 0.4531,
+    "test_rows": 9479,
+    "test_fake_share": 0.4641
+  },
+  "top_terms": {
+    "toward_fake": [
+      [
+        "via",
+        41.464
+      ],
+      [
+        "video",
+        31.654
+      ],
+      [
+        "breaking",
+        17.998
+      ],
+      [
+        "october",
+        17.223
+      ],
+      [
+        "2016",
+        16.574
+      ],
+      [
+        "the us",
+        16.485
+      ],
+      [
+        "watch",
+        14.206
+      ],
+      [
+        "hillary",
+        13.894
+      ],
+      [
+        "anti",
+        13.55
+      ],
+      [
+        "us",
+        13.135
+      ],
+      [
+        "just",
+        13.109
+      ],
+      [
+        "november",
+        12.879
+      ],
+      [
+        "this",
+        11.767
+      ],
+      [
+        "source",
+        11.413
+      ],
+      [
+        "november 2016",
+        11.339
+      ],
+      [
+        "wfb",
+        10.175
+      ],
+      [
+        "on october",
+        9.861
+      ],
+      [
+        "snip",
+        9.652
+      ],
+      [
+        "obama",
+        9.633
+      ],
+      [
+        "featured image",
+        9.443
+      ],
+      [
+        "co",
+        9.133
+      ],
+      [
+        "nyp",
+        9.0
+      ],
+      [
+        "below",
+        8.936
+      ],
+      [
+        "wow",
+        8.691
+      ],
+      [
+        "year old",
+        8.627
+      ]
+    ],
+    "toward_real": [
+      [
+        "said",
+        -29.322
+      ],
+      [
+        "president donald",
+        -28.031
+      ],
+      [
+        "said on",
+        -19.888
+      ],
+      [
+        "pic twitter",
+        -18.034
+      ],
+      [
+        "pic",
+        -15.148
+      ],
+      [
+        "york times",
+        -13.825
+      ],
+      [
+        "on tuesday",
+        -13.152
+      ],
+      [
+        "on thursday",
+        -12.989
+      ],
+      [
+        "or email",
+        -12.922
+      ],
+      [
+        "milo",
+        -12.371
+      ],
+      [
+        "thursday",
+        -12.287
+      ],
+      [
+        "on wednesday",
+        -12.151
+      ],
+      [
+        "on monday",
+        -11.935
+      ],
+      [
+        "on friday",
+        -11.56
+      ],
+      [
+        "its",
+        -11.262
+      ],
+      [
+        "president",
+        -10.567
+      ],
+      [
+        "the new",
+        -10.54
+      ],
+      [
+        "friday",
+        -10.405
+      ],
+      [
+        "said in",
+        -10.396
+      ],
+      [
+        "tuesday",
+        -10.252
+      ],
+      [
+        "in 2016",
+        -10.158
+      ],
+      [
+        "saturday",
+        -9.682
+      ],
+      [
+        "twitter",
+        -9.486
+      ],
+      [
+        "sunday",
+        -9.226
+      ],
+      [
+        "wednesday",
+        -9.036
+      ]
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+# Runtime dependencies (used by the app and by training).
+# Versions are pinned so the saved model loads with the same scikit-learn
+# version it was trained with. Tested with Python 3.12.
+streamlit==1.64.0
+scikit-learn==1.9.1
+pandas==3.0.6
+numpy==2.4.6
+joblib==1.6.0
+plotly==7.1.0
